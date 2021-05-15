@@ -1,0 +1,25 @@
+---
+layout: page
+---
+
+<h2>Projects</h2>
+
+{%- if site.texture.projects.size > 0 -%}
+<ul class="projects">
+    {%- for project in site.texture.projects -%}
+    <li>
+        <div class="project-meta">
+            <a
+                class="project-link"
+                href="{{ project.link }}"
+                title="{{ project.title | escape }}"
+                target="_blank"
+            >
+                <h3 class="project-title">{{ project.title | escape }}</h3>
+            </a>
+        </div>
+        <div class="project">{{ project.description }}</div>
+    </li>
+    {%- endfor -%}
+</ul>
+{%- endif -%}

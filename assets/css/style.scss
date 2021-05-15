@@ -1,0 +1,13 @@
+---
+---
+
+@import "theme";
+
+// Textures
+.texture-red {
+    background-image: url("{{ site.baseurl }}/assets/textures/red.jpg");
+
+    h2 {
+        color: #ccc;
+    }
+}

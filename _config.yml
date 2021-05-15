@@ -1,0 +1,40 @@
+title: UNISON Technologies
+author: UNISON Technologies
+email: support@unisontech.org
+description: Uniting humanity through technology
+
+sass:
+    sass_dir: _sass
+
+texture:
+    title: UNISON Technologies
+    tagline: Uniting humanity through technology
+    style: red
+    showNav: true
+
+    navigation:
+        - title: Home
+          url: "/"
+        - title: Terms of Service
+          url: "/terms"
+        - title: Privacy Policy
+          url: "/privacy"
+
+    projects:
+        - title: Schedules
+          description: An app for schedules. Find out exactly how much time is remaining in a period or what the period is. Currently supports the AUHSD Standard and Hybrid schedules.
+          link: https://schedules.unisontech.org
+        - title: Notetap
+          description: A free online journal
+          link: https://notetap.unisontech.org
+        - title: Control Surface for Spotify
+          description: A utility to allow users to control their Spotify playback without opening the web version of Spotify. It aims to be a simple, easy-to-use application to control playback and view currently playing information.
+          link: https://spotify-controlsurface.unisontech.org
+
+collections:
+    pages:
+        output: true
+        permalink: /:title
+
+plugins:
+    - jekyll-seo-tag

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {%- include head.html -%}
+    </head>
+    <body>
+        <header class="texture-{{ site.texture.style }}">
+            <div class="container">{%- include nav.html -%}</div>
+            {%- include subpage_header.html -%}
+        </header>
+        <main>
+            <div class="container page-content">{{ content }}</div>
+        </main>
+    </body>
+</html>
