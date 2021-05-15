@@ -25,7 +25,7 @@ texture:
           description: An app for schedules. Find out exactly how much time is remaining in a period or what the period is. Currently supports the AUHSD Standard and Hybrid schedules.
           link: https://schedules.unisontech.org
         - title: Notetap
-          description: A free online journal
+          description: A free online journal.
           link: https://notetap.unisontech.org
         - title: Control Surface for Spotify
           description: A utility to allow users to control their Spotify playback without opening the web version of Spotify. It aims to be a simple, easy-to-use application to control playback and view currently playing information.
