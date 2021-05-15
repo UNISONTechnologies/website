@@ -15,7 +15,7 @@ texture:
     navigation:
         - title: Home
           url: "/"
-        - title: Terms of Service
+        - title: Terms and Conditions
           url: "/terms"
         - title: Privacy Policy
           url: "/privacy"

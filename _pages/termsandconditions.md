@@ -13,8 +13,8 @@ The Services use third party services that declare their own Terms and Condition
 
 Link to Terms and Conditions of third party service providers used by the app
 
--   [Umami](https://umami.is/) (an anonymous, open-source, privacy-focused analytics platform)
--   [Sentry](https://sentry.io/terms/) (an error-logging platform)
+-   [Umami](https://umami.is/){:target="_blank"} (an anonymous, open-source, privacy-focused analytics platform)
+-   [Sentry](https://sentry.io/terms/){:target="_blank"} (an error-logging platform)
 
 You should be aware that there are certain things that UNISON Technologies will not take responsibility for. Certain functions of the Services will require the Services to have an active internet connection. The connection can be Wi-Fi, or provided by your mobile network provider, but UNISON Technologies cannot take responsibility for the app not working at full functionality if you don’t have access to Wi-Fi, and you don’t have any of your data allowance left.
 
@@ -32,4 +32,4 @@ We may update our Terms and Conditions from time to time. Thus, you are advised 
 
 **Contact Us**
 
-If you have any questions or suggestions about our Terms and Conditions, do not hesitate to contact us at [support@unisontech.org](mailto:support@unisontech.org?subject=Questions%20About%20the%20Terms%20and%20Conditions).
+If you have any questions or suggestions about our Terms and Conditions, do not hesitate to contact us at [support@unisontech.org](mailto:support@unisontech.org?subject=Questions%20About%20the%20Terms%20and%20Conditions){:target="_blank"}.

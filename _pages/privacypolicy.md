@@ -21,8 +21,8 @@ These Services use third-party services that may collect information used to ide
 
 Link to the privacy policies of third-party service providers used by the Services:
 
--   [Umami](https://umami.is/) (an anonymous, open-source, privacy-focused analytics platform)
--   [Sentry](https://sentry.io/privacy/) (an error-logging platform)
+-   [Umami](https://umami.is/){:target="_blank"} (an anonymous, open-source, privacy-focused analytics platform)
+-   [Sentry](https://sentry.io/privacy/){:target="_blank"} (an error-logging platform)
 
 **Log Data**
 
@@ -68,4 +68,4 @@ We may update our Privacy Policy from time to time. Thus, you are advised to rev
 
 **Contact Us**
 
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at [support@unisontech.org](mailto:support@unisontech.org?subject=Questions%20About%20the%20Privacy%20Policy).
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at [support@unisontech.org](mailto:support@unisontech.org?subject=Questions%20About%20the%20Privacy%20Policy){:target="_blank"}.
