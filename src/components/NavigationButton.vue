@@ -4,7 +4,7 @@ const props = defineProps<{ to: string; content: string; active?: boolean }>();
 
 const state = {
     active: ["bg-gray-800", "text-white"],
-    inactive: ["text-gray-300", "hover:bg-gray-600", "hover:text-white"],
+    inactive: ["text-gray-600", "hover:bg-gray-600", "hover:text-white"],
 };
 const stateClass = computed((): string => {
     if (props.active) {

@@ -6,14 +6,14 @@ const { path } = useRoute();
 </script>
 
 <template>
-    <nav class="">
+    <nav class="bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <div class="flex items-center space-x-8">
                     <router-link to="/" class="flex-shrink-0">
                         <img
-                            class="h-8 w-auto rounded-full"
-                            src="/img/logo.png"
+                            class="h-12 w-auto rounded-full"
+                            src="/img/wordmark.png"
                             alt="UT Logo"
                         />
                     </router-link>
