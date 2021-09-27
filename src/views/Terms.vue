@@ -6,17 +6,21 @@ import MainLayout from "../components/MainLayout.vue";
     <main-layout header="Terms of Service">
         <p>
             By using the Services provided by UNISON Technologies in any way,
-            these terms will automatically apply to you – you should make sure
-            therefore that you read them carefully before using the Services.
-            You’re not allowed to copy, or modify the Service, any part of the
-            Service, or our trademarks in any way. You’re not allowed to attempt
-            to extract the source code of the Service, unless it is open-source,
-            and you also shouldn’t try to translate the app into other languages
-            (contact UNISON Technologies if you would like to port a Service to
-            another language), or make derivative versions. The Services
-            themselves, and all the trademarks, copyright, database rights and
-            other intellectual property rights related to it, still belong to
-            UNISON Technologies.
+            these terms will automatically apply to you, therefore you should
+            make sure that you read them carefully before using the Services.
+            You are not allowed to copy or modify any part of the Service, or
+            our trademarks, in any way. You’re not allowed to attempt to extract
+            the source code of the Service, unless it is open-source, and you
+            also shouldn’t try to translate the app into other languages (<a
+                href="#contact"
+                class="underline"
+            >
+                Contact UNISON Technologies
+            </a>
+            if you would like to translate a Service), or make derivative
+            versions. The Services themselves, and all the trademarks,
+            copyright, database rights and other intellectual property rights
+            related to it, still belong to UNISON Technologies.
         </p>
 
         <p>
@@ -34,15 +38,14 @@ import MainLayout from "../components/MainLayout.vue";
         </p>
 
         <p>
-            Links to the Terms and Conditions of third-party service providers used by the Services
- 
-            <ul class="mt-1 list-inside list-disc">
+            Links to the Terms and Conditions of third-party service providers
+            used by the Services:
+
+            <ul class="mt-1 list-disc list-inside">
                 <li>
-                    <a href="https://umami.is/" target="_blank" rel="noopener noreferrer" class="underline pr-1">Umami</a> (an
-                    anonymous, open-source, privacy-focused analytics platform)
+                    (an anonymous, open-source, privacy-focused analytics platform)
                 </li>
                 <li>
-                    <a href="https://sentry.io/terms/" target="_blank" rel="noopener noreferrer" class="underline pr-1">Sentry</a>
                     (an error-logging platform)
                 </li>
             </ul>
@@ -96,16 +99,19 @@ import MainLayout from "../components/MainLayout.vue";
             At some point, we may wish to update the Services. UNISON
             Technologies does not promise that it will always update the app so
             that it is relevant to you and/or works with the software that you
-            have installed on your device. However, you promise to always accept
-            updates to the application when offered to you, We may also wish to
-            stop providing the app, and may terminate use of it at any time
-            without giving notice of termination to you. Unless we tell you
-            otherwise, upon any termination, (a) the rights and licenses granted
-            to you in these terms will end; (b) you must stop using the app, and
-            (if needed) delete it from your device.
+            have installed on your device. However, in order for the app to have
+            the latest features and bug fixes, you must accept updates to the
+            application when offered to you, we may also wish to stop providing
+            the app, and may terminate use of it at any time without giving
+            notice of termination to you. Unless we tell you otherwise, upon any
+            termination, (a) the rights and licenses granted to you in these
+            terms will end; (b) you must stop using the app, and (if needed)
+            delete it from your device.
         </p>
 
-        <p class="section-header"><strong>Changes to These Terms and Conditions</strong></p>
+        <p class="section-header">
+            <strong>Changes to These Terms and Conditions</strong>
+        </p>
 
         <p>
             We may update our Terms and Conditions from time to time. Thus, you
@@ -114,14 +120,15 @@ import MainLayout from "../components/MainLayout.vue";
             Conditions on this page.
         </p>
 
-        <p class="section-header"><strong>Contact Us</strong></p>
+        <p id="contact" class="section-header"><strong>Contact Us</strong></p>
 
         <p>
             If you have any questions or suggestions about our Terms and
             Conditions, do not hesitate to contact us at
             <a
                 href="mailto:support@unisontech.org?subject=Questions%20About%20the%20Terms%20and%20Conditions"
-                target="_blank" class="underline"
+                target="_blank"
+                class="underline"
                 >support@unisontech.org</a
             >.
         </p>
