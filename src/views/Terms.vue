@@ -37,19 +37,36 @@ import MainLayout from "../components/MainLayout.vue";
             and Conditions.
         </p>
 
-        <p>
+        <div class="content">
             Links to the Terms and Conditions of third-party service providers
             used by the Services:
 
             <ul class="mt-1 list-disc list-inside">
                 <li>
-                    (an anonymous, open-source, privacy-focused analytics platform)
+                    <a
+                        href="https://umami.is/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="underline pr-1"
+                    >
+                        Umami
+                    </a>
+                    (an anonymous, open-source, privacy-focused analytics
+                    platform)
                 </li>
                 <li>
+                    <a
+                        href="https://sentry.io/terms/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="underline pr-1"
+                    >
+                        Sentry
+                    </a>
                     (an error-logging platform)
                 </li>
             </ul>
-        </p>
+        </div>
 
         <p>
             You should be aware that there are certain things that UNISON
@@ -129,14 +146,16 @@ import MainLayout from "../components/MainLayout.vue";
                 href="mailto:support@unisontech.org?subject=Questions%20About%20the%20Terms%20and%20Conditions"
                 target="_blank"
                 class="underline"
-                >support@unisontech.org</a
+            >
+                support@unisontech.org </a
             >.
         </p>
     </main-layout>
 </template>
 
 <style scoped>
-p:not(:last-child):not(.section-header) {
+p:not(:last-child):not(.section-header),
+div.content:not(.section-header) {
     margin-bottom: 16px;
 }
 </style>

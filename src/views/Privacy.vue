@@ -45,7 +45,7 @@ import MainLayout from "../components/MainLayout.vue";
             used to identify you.
         </p>
 
-        <p>
+        <div class="content">
             Link to the privacy policies of third-party service providers used
             by the Services:
 
@@ -59,7 +59,7 @@ import MainLayout from "../components/MainLayout.vue";
                     (an error-logging platform)
                 </li>
             </ul>
-        </p>
+        </div>
 
         <p class="section-header"><strong>Log Data</strong></p>
 
@@ -146,16 +146,16 @@ import MainLayout from "../components/MainLayout.vue";
             <a
                 href="mailto:support@unisontech.org?subject=Questions%20About%20the%20Privacy%20Policy"
                 target="_blank"
-                >
-                support@unisontech.org
-                </a
+                class="underline"
+                >support@unisontech.org</a
             >.
         </p>
     </main-layout>
 </template>
 
 <style scoped>
-p:not(:last-child):not(.section-header) {
+p:not(:last-child):not(.section-header),
+div.content:not(.section-header) {
     margin-bottom: 16px;
 }
 </style>
