@@ -12,22 +12,30 @@ const { path } = useRoute();
                 <div class="flex items-center space-x-8">
                     <router-link to="/" class="flex-shrink-0">
                         <img
-                            class="h-12 w-auto rounded-full"
-                            src="/img/wordmark.png"
+                            class="block lg:hidden h-8 w-auto"
+                            src="/img/logo.png"
                             alt="UT Logo"
+                        />
+                        <img
+                            class="hidden lg:block h-12 w-auto"
+                            src="/img/wordmark.png"
+                            alt="UT Wordmark"
                         />
                     </router-link>
                     <div class="sm:ml-12">
-                        <div class="flex space-x-4">
-                            <navigation-button to="/products"
-                                content="Products and Services"
+                        <div class="flex space-x-4 items-center">
+                            <navigation-button
+                                to="/products"
+                                content="Services"
                                 :active="path === '/products'"
                             />
-                            <navigation-button to="/terms"
+                            <navigation-button
+                                to="/terms"
                                 content="Terms of Service"
                                 :active="path === '/terms'"
                             />
-                            <navigation-button to="/privacy"
+                            <navigation-button
+                                to="/privacy"
                                 content="Privacy Policy"
                                 :active="path === '/privacy'"
                             />
