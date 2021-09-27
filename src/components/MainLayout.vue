@@ -6,7 +6,8 @@ const props = defineProps<{ header: string }>();
 <template>
     <div class="bg-gradient-to-r from-ut-blue to-ut-green pb-32">
         <navigation-bar />
-        <header class="pt-10 pb-8">
+
+        <header class="pt-20 pb-8">
             <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-8">
                 <h1
                     class="text-3xl font-bold text-white"
