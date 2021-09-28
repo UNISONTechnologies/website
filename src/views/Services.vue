@@ -7,7 +7,7 @@ import productsAndService from "../data/productsAndServices.json";
 </script>
 
 <template>
-    <main-layout header="Products and Services">
+    <main-layout header="Services">
         <three-column-grid>
             <creation-card
                 v-for="product in productsAndService"

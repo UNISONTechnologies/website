@@ -25,9 +25,9 @@ const { path } = useRoute();
                     <div class="sm:ml-12">
                         <div class="flex space-x-4 items-center">
                             <navigation-button
-                                to="/products"
+                                to="/services"
                                 content="Services"
-                                :active="path === '/products'"
+                                :active="path === '/services'"
                             />
                             <navigation-button
                                 to="/terms"

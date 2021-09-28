@@ -8,8 +8,8 @@ import ThreeColumnGrid from "../components/ThreeColumnGrid.vue";
     <main-layout header="Home">
         <three-column-grid class="h-80">
             <homepage-button
-                to="/products"
-                title="Products and Service"
+                to="/services"
+                title="Services"
                 background-color="bg-ut-blue"
             />
             <homepage-button
@@ -23,7 +23,5 @@ import ThreeColumnGrid from "../components/ThreeColumnGrid.vue";
                 background-color="bg-ut-blue"
             />
         </three-column-grid>
-        <!-- <div class="grid grid-cols-3 gap-6 h-80"> -->
-        <!-- </div> -->
     </main-layout>
 </template>
