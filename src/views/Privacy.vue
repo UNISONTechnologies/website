@@ -3,7 +3,7 @@ import MainLayout from "../components/MainLayout.vue";
 </script>
 
 <template>
-    <main-layout header="Privacy Policy">
+    <main-layout header="Privacy Policy" subtitle="Last Updated: September 26, 2021">
         <p>
             This privacy policy governs all of UNISON Technologies’ applications
             and services. All services are provided at no cost and are intended

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import NavigationBar from "./NavigationBar.vue";
-const props = defineProps<{ header: string }>();
+const props = defineProps<{ header: string; subtitle?: string }>();
 </script>
 
 <template>
@@ -18,6 +18,18 @@ const props = defineProps<{ header: string }>();
                         text-center
                     "
                     v-text="props.header"
+                />
+                <h2
+                    class="
+                        text-xl
+                        font-medium
+                        text-white
+                        sm:text-left
+                        text-center
+                        mt-1
+                    "
+                    v-text="props.subtitle"
+                    v-if="subtitle"
                 />
             </div>
         </header>

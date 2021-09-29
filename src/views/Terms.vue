@@ -3,7 +3,7 @@ import MainLayout from "../components/MainLayout.vue";
 </script>
 
 <template>
-    <main-layout header="Terms of Service">
+    <main-layout header="Terms of Service" subtitle="Last Updated: September 26, 2021">
         <p>
             By using the Services provided by UNISON Technologies in any way,
             these terms will automatically apply to you, therefore you should
