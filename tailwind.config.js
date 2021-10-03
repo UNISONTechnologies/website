@@ -17,8 +17,8 @@ module.exports = {
         },
         extend: {
             colors: {
-                "ut-blue": "#367BBC",
-                "ut-green": "#4CAF50",
+                "ut-blue": { DEFAULT: "#367BBC", dark: "#2D69A1" },
+                "ut-green": { DEFAULT: "#4CAF50", dark: "#3F9142" },
                 background: "#0F1316",
             },
             minHeight: { 96: "24em" },
