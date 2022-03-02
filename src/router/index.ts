@@ -11,11 +11,23 @@ const routes = [
     },
     {
         path: "/terms",
+        redirect: () => {
+            return { path: "/legal/terms" };
+        },
+    },
+    {
+        path: "/privacy",
+        redirect: () => {
+            return { path: "/legal/privacy" };
+        },
+    },
+    {
+        path: "/legal/terms",
         name: "Terms",
         component: Terms,
     },
     {
-        path: "/privacy",
+        path: "/legal/privacy",
         name: "Privacy",
         component: Privacy,
     },

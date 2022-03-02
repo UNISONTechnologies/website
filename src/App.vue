@@ -16,10 +16,10 @@
         <div
             class="flex flex-col sm:flex-row space-y-1 sm:space-y-0 sm:space-x-6 items-center"
         >
-            <router-link to="/terms" class="hover:underline">
+            <router-link to="/legal/terms" class="hover:underline">
                 Terms of Service
             </router-link>
-            <router-link to="/privacy" class="hover:underline">
+            <router-link to="/legal/privacy" class="hover:underline">
                 Privacy Policy
             </router-link>
         </div>

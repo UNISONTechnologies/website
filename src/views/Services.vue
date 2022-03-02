@@ -2,13 +2,13 @@
 import MainLayout from "../components/MainLayout.vue";
 import ThreeColumnGrid from "../components/ThreeColumnGrid.vue";
 import CreationCard from "../components/CreationCard.vue";
-import { onBeforeMount, ref } from "vue";
-import type { Service } from "../models";
+import { useStore } from "../stores/main";
+import { onBeforeMount } from "vue";
 
-const services = ref<Service[]>([]);
+const store = useStore();
 
 onBeforeMount(async () => {
-    services.value = await (
+    store.services = await (
         await fetch("https://raw.unisontech.org/ut/services")
     ).json();
 });
@@ -16,9 +16,9 @@ onBeforeMount(async () => {
 
 <template>
     <main-layout header="Home">
-        <three-column-grid v-if="services">
+        <three-column-grid v-if="store.services">
             <creation-card
-                v-for="service in services"
+                v-for="service in store.services"
                 :key="service.name"
                 :name="service.name"
                 :description="service.description"
