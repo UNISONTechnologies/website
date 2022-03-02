@@ -22,25 +22,6 @@ const { path } = useRoute();
                             alt="UT Wordmark"
                         />
                     </router-link>
-                    <div class="sm:ml-12">
-                        <div class="flex space-x-4 items-center">
-                            <navigation-button
-                                to="/services"
-                                content="Services"
-                                :active="path === '/services'"
-                            />
-                            <navigation-button
-                                to="/terms"
-                                content="Terms of Service"
-                                :active="path === '/terms'"
-                            />
-                            <navigation-button
-                                to="/privacy"
-                                content="Privacy Policy"
-                                :active="path === '/privacy'"
-                            />
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

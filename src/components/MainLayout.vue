@@ -14,14 +14,14 @@ const props = defineProps<{ header: string; subtitle?: string }>();
                     v-text="props.header"
                 />
                 <h2
+                    v-if="subtitle"
                     class="text-xl font-medium text-white sm:text-left text-center mt-1"
                     v-text="props.subtitle"
-                    v-if="subtitle"
                 />
             </div>
         </header>
     </div>
-    <main class="-mt-32">
+    <main class="-mt-32 pb-16">
         <div class="max-w-7xl mx-auto pb-12 px-4 sm:px-8 lg:px-8">
             <div class="bg-white rounded-lg shadow px-5 py-6 sm:px-6 min-h-96">
                 <div class="p-4">
