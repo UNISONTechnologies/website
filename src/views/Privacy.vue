@@ -3,7 +3,10 @@ import MainLayout from "../components/MainLayout.vue";
 </script>
 
 <template>
-    <main-layout header="Privacy Policy" subtitle="Last Updated: September 26, 2021">
+    <main-layout
+        header="Privacy Policy"
+        subtitle="Last Updated: September 26, 2021"
+    >
         <p>
             This privacy policy governs all of UNISON Technologies’ applications
             and services. All services are provided at no cost and are intended
@@ -30,7 +33,9 @@ import MainLayout from "../components/MainLayout.vue";
             Policy.
         </p>
 
-        <p class="section-header"><strong>Information Collection and Use</strong></p>
+        <p class="section-header">
+            <strong>Information Collection and Use</strong>
+        </p>
 
         <p>
             For a better experience, while using our Services, we may require
@@ -51,11 +56,24 @@ import MainLayout from "../components/MainLayout.vue";
 
             <ul class="mt-1 list-inside list-disc">
                 <li>
-                    <a href="https://umami.is/" target="_blank" rel="noopener noreferrer" class="underline pr-1">Umami</a> (an
-                    anonymous, open-source, privacy-focused analytics platform)
+                    <a
+                        href="https://umami.is/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="underline pr-1"
+                        >Umami</a
+                    >
+                    (an anonymous, open-source, privacy-focused analytics
+                    platform)
                 </li>
                 <li>
-                    <a href="https://sentry.io/privacy/" target="_blank" rel="noopener noreferrer" class="underline pr-1">Sentry</a>
+                    <a
+                        href="https://sentry.io/privacy/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="underline pr-1"
+                        >Sentry</a
+                    >
                     (an error-logging platform)
                 </li>
             </ul>
@@ -75,7 +93,7 @@ import MainLayout from "../components/MainLayout.vue";
 
         <p class="section-header"><strong>Services Providers</strong></p>
 
-        <p>
+        <div>
             We may employ third-party companies and individuals due to the
             following reasons:
 
@@ -85,7 +103,7 @@ import MainLayout from "../components/MainLayout.vue";
                 <li>To perform Service-related services; or</li>
                 <li>To assist us in analyzing how our Services is used.</li>
             </ul>
-        </p>
+        </div>
 
         <p>
             We want to inform users of this Services that these third parties
@@ -129,7 +147,9 @@ import MainLayout from "../components/MainLayout.vue";
             necessary actions.
         </p>
 
-        <p class="section-header"><strong>Changes to This Privacy Policy</strong></p>
+        <p class="section-header">
+            <strong>Changes to This Privacy Policy</strong>
+        </p>
 
         <p>
             We may update our Privacy Policy from time to time. Thus, you are

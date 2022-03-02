@@ -16,7 +16,8 @@ const stateClass = computed((): string => {
 </script>
 
 <template>
-    <router-link :to="props.to"
+    <router-link
+        :to="props.to"
         class="text-sm font-medium px-3 py-2 rounded-md"
         :class="[stateClass]"
         v-text="props.content"

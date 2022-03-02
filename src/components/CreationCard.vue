@@ -11,27 +11,13 @@ const props = defineProps<{
         :href="props.url"
         target="_blank"
         rel="noopener noreferrer"
-        class="
-            w-full
-            bg-white
-            dark:bg-gray-700
-            rounded-lg
-            shadow
-            divide-y divide-gray-200
-            dark:divide-gray-800
-        "
+        class="w-full bg-white dark:bg-gray-700 rounded-lg shadow divide-y divide-gray-200 dark:divide-gray-800"
     >
         <div class="w-full flex items-center justify-between p-6 space-x-6">
             <div class="flex-1">
                 <div class="flex items-center space-x-3">
                     <h3
-                        class="
-                            text-gray-900
-                            dark:text-white
-                            text-md
-                            font-medium
-                            truncate
-                        "
+                        class="text-gray-900 dark:text-white text-md font-medium truncate"
                         v-text="props.name"
                     />
                 </div>

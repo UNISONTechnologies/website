@@ -13,5 +13,10 @@
         "name": "Control Surface for Spotify",
         "description": "Control Surface for Spotify is a utility to allow users to control their Spotify playback without opening the web version of Spotify. It aims to be a simple, easy-to-use application to control playback and view currently playing information.",
         "url": "https://cs.unisontech.org"
+    },
+    {
+        "name": "Stock Digest",
+        "description": "A daily email service with updates for your stocks.",
+        "url": "https://stockdigest.unisontech.org"
     }
 ]

@@ -10,24 +10,11 @@ const props = defineProps<{ header: string; subtitle?: string }>();
         <header class="pt-20 pb-8">
             <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-8">
                 <h1
-                    class="
-                        text-3xl
-                        font-bold
-                        text-white
-                        sm:text-left
-                        text-center
-                    "
+                    class="text-3xl font-bold text-white sm:text-left text-center"
                     v-text="props.header"
                 />
                 <h2
-                    class="
-                        text-xl
-                        font-medium
-                        text-white
-                        sm:text-left
-                        text-center
-                        mt-1
-                    "
+                    class="text-xl font-medium text-white sm:text-left text-center mt-1"
                     v-text="props.subtitle"
                     v-if="subtitle"
                 />
