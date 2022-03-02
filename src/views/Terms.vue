@@ -6,6 +6,7 @@ import MainLayout from "../components/MainLayout.vue";
     <main-layout
         header="Terms of Service"
         subtitle="Last Updated: September 26, 2021"
+        typography
     >
         <p>
             By using the Services provided by UNISON Technologies in any way,
@@ -44,13 +45,13 @@ import MainLayout from "../components/MainLayout.vue";
             Links to the Terms and Conditions of third-party service providers
             used by the Services:
 
-            <ul class="mt-1 list-disc list-inside">
+            <ul>
                 <li>
                     <a
                         href="https://umami.is/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="underline pr-1"
+                        class="mr-1"
                     >
                         Umami
                     </a>
@@ -62,7 +63,7 @@ import MainLayout from "../components/MainLayout.vue";
                         href="https://sentry.io/terms/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="underline pr-1"
+                        class="mr-1"
                     >
                         Sentry
                     </a>
@@ -129,9 +130,9 @@ import MainLayout from "../components/MainLayout.vue";
             delete it from your device.
         </p>
 
-        <p class="section-header">
+        <h3>
             <strong>Changes to These Terms and Conditions</strong>
-        </p>
+        </h3>
 
         <p>
             We may update our Terms and Conditions from time to time. Thus, you
@@ -140,11 +141,11 @@ import MainLayout from "../components/MainLayout.vue";
             Conditions on this page.
         </p>
 
-        <p id="contact" class="section-header"><strong>Contact Us</strong></p>
+        <h3 id="contact"><strong>Contact Us</strong></h3>
 
         <p>
             If you have any questions or suggestions about our Terms and
-            Conditions, do not hesitate to contact us at
+            Conditions, contact us at
             <a
                 href="mailto:support@unisontech.org?subject=Questions%20About%20the%20Terms%20and%20Conditions"
                 target="_blank"
@@ -155,10 +156,3 @@ import MainLayout from "../components/MainLayout.vue";
         </p>
     </main-layout>
 </template>
-
-<style scoped>
-p:not(:last-child):not(.section-header),
-div.content:not(.section-header) {
-    margin-bottom: 16px;
-}
-</style>

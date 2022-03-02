@@ -1,5 +1,4 @@
 import { createWebHistory, createRouter } from "vue-router";
-import Home from "../views/Home.vue";
 import Services from "../views/Services.vue";
 import Terms from "../views/Terms.vue";
 import Privacy from "../views/Privacy.vue";
@@ -7,21 +6,28 @@ import Privacy from "../views/Privacy.vue";
 const routes = [
     {
         path: "/",
-        name: "Home",
-        component: Home,
-    },
-    {
-        path: "/services",
         name: "Services",
         component: Services,
     },
     {
         path: "/terms",
+        redirect: () => {
+            return { path: "/legal/terms" };
+        },
+    },
+    {
+        path: "/privacy",
+        redirect: () => {
+            return { path: "/legal/privacy" };
+        },
+    },
+    {
+        path: "/legal/terms",
         name: "Terms",
         component: Terms,
     },
     {
-        path: "/privacy",
+        path: "/legal/privacy",
         name: "Privacy",
         component: Privacy,
     },

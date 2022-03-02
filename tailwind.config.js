@@ -1,14 +1,14 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-    mode: "jit",
-    purge: [
+    darkMode: "class",
+    content: [
         "./index.html",
         "./src/*.vue",
         "./src/components/*.vue",
         "./src/views/*.vue",
     ],
-    darkMode: "class",
     theme: {
         fontFamily: {
             sans: ["Barlow", ...defaultTheme.fontFamily.sans],
@@ -24,8 +24,5 @@ module.exports = {
             minHeight: { 96: "24em" },
         },
     },
-    variants: {
-        extend: {},
-    },
-    plugins: [],
+    plugins: [require("@tailwindcss/typography")],
 };

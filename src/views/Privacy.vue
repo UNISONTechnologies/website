@@ -6,6 +6,7 @@ import MainLayout from "../components/MainLayout.vue";
     <main-layout
         header="Privacy Policy"
         subtitle="Last Updated: September 26, 2021"
+        typography
     >
         <p>
             This privacy policy governs all of UNISON Technologies’ applications
@@ -33,9 +34,9 @@ import MainLayout from "../components/MainLayout.vue";
             Policy.
         </p>
 
-        <p class="section-header">
+        <h3>
             <strong>Information Collection and Use</strong>
-        </p>
+        </h3>
 
         <p>
             For a better experience, while using our Services, we may require
@@ -79,7 +80,7 @@ import MainLayout from "../components/MainLayout.vue";
             </ul>
         </div>
 
-        <p class="section-header"><strong>Log Data</strong></p>
+        <h3><strong>Log Data</strong></h3>
 
         <p>
             We want to inform you that whenever you use our Services, in a case
@@ -91,7 +92,7 @@ import MainLayout from "../components/MainLayout.vue";
             other statistics.
         </p>
 
-        <p class="section-header"><strong>Services Providers</strong></p>
+        <h3><strong>Services Providers</strong></h3>
 
         <div>
             We may employ third-party companies and individuals due to the
@@ -113,7 +114,7 @@ import MainLayout from "../components/MainLayout.vue";
             purpose.
         </p>
 
-        <p class="section-header"><strong>Security</strong></p>
+        <h3><strong>Security</strong></h3>
 
         <p>
             We value your trust in providing us your Personal Information, thus
@@ -123,7 +124,7 @@ import MainLayout from "../components/MainLayout.vue";
             cannot guarantee its absolute security.
         </p>
 
-        <p class="section-header"><strong>Links to Other Sites</strong></p>
+        <h3><strong>Links to Other Sites</strong></h3>
 
         <p>
             This Services may contain links to other sites. If you click on a
@@ -134,7 +135,7 @@ import MainLayout from "../components/MainLayout.vue";
             policies, or practices of any third-party sites or services.
         </p>
 
-        <p class="section-header"><strong>Children’s Privacy</strong></p>
+        <h3><strong>Children’s Privacy</strong></h3>
 
         <p>
             These Services do not address anyone under the age of 13. We do not
@@ -147,9 +148,9 @@ import MainLayout from "../components/MainLayout.vue";
             necessary actions.
         </p>
 
-        <p class="section-header">
+        <h3>
             <strong>Changes to This Privacy Policy</strong>
-        </p>
+        </h3>
 
         <p>
             We may update our Privacy Policy from time to time. Thus, you are
@@ -158,11 +159,11 @@ import MainLayout from "../components/MainLayout.vue";
             page.
         </p>
 
-        <p class="section-header"><strong>Contact Us</strong></p>
+        <h3><strong>Contact Us</strong></h3>
 
         <p>
             If you have any questions or suggestions about our Privacy Policy,
-            do not hesitate to contact us at
+            contact us at
             <a
                 href="mailto:support@unisontech.org?subject=Questions%20About%20the%20Privacy%20Policy"
                 target="_blank"
@@ -172,10 +173,3 @@ import MainLayout from "../components/MainLayout.vue";
         </p>
     </main-layout>
 </template>
-
-<style scoped>
-p:not(:last-child):not(.section-header),
-div.content:not(.section-header) {
-    margin-bottom: 16px;
-}
-</style>
