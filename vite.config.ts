@@ -6,12 +6,25 @@ const name = "UNISON Technologies";
 const keywords = "unisontech technology";
 const description = "UNISON Technologies: Uniting humanity through technology";
 const faviconUrl = "https://unisontech.org/img/logo.png";
-const twitterUsername = "";
+const twitterUsername = "@unisontechorg";
 
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [
         htmlConfig({
+            headScripts: [
+                {
+                    type: "application/ld+json",
+                    content: `
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "url": "https://unisontech.org",
+              "logo": "https://unisontech.org/img/logo.png"
+            }
+        `,
+                },
+            ],
             metas: [
                 { charset: "UTF-8" },
                 {
