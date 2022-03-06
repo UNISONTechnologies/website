@@ -10,6 +10,15 @@ const twitterUsername = "@unisontechorg";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    build: {
+        rollupOptions: {
+            output: {
+                manualChunks: {
+                    legal: ["./src/views/Privacy.vue", "./src/views/Terms.vue"],
+                },
+            },
+        },
+    },
     plugins: [
         htmlConfig({
             headScripts: [
@@ -62,7 +71,7 @@ export default defineConfig({
                 },
                 {
                     name: "twitter:image:alt",
-                    content: `The ${name} logo`,
+                    content: `${name}' logo`,
                 },
             ],
             links: [
