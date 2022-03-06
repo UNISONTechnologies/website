@@ -4,7 +4,7 @@ import htmlConfig from "vite-plugin-html-config";
 
 const name = "UNISON Technologies";
 const keywords = "unisontech technology";
-const description = "UNISON Technologies: Uniting humanity through technology";
+const description = "Uniting humanity through technology";
 const faviconUrl = "https://unisontech.org/img/logo.png";
 const twitterUsername = "@unisontechorg";
 
