@@ -16,7 +16,7 @@ const props = defineProps<{
         <div class="w-full flex items-center justify-between p-6 space-x-6">
             <div class="flex-1">
                 <div class="flex items-center space-x-3">
-                    <h3
+                    <span
                         class="text-gray-900 dark:text-white text-md font-medium truncate"
                         v-text="props.name"
                     />
