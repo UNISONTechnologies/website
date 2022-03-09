@@ -10,7 +10,7 @@
     X-Content-Type-Options: nosniff
     Cache-Control: public, max-age=2592000
     Referrer-Policy: strict-origin-when-cross-origin
-    Content-Security-Policy: default-src 'self' https://fonts.gstatic.com; connect-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; report-uri https://hkamran.report-uri.com/r/d/csp/enforce; report-to default
+    Content-Security-Policy: default-src 'self' https://fonts.gstatic.com; connect-src 'self' https://raw.unisontech.org; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; report-uri https://hkamran.report-uri.com/r/d/csp/enforce; report-to default
     Strict-Transport-Security: max-age=31536000; includeSubDomains
 
     
