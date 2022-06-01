@@ -53,8 +53,7 @@ import MainLayout from "../components/MainLayout.vue";
                         rel="noopener noreferrer"
                         class="mr-1"
                     >
-                        Umami
-                    </a>
+                        Umami</a>
                     (an anonymous, open-source, privacy-focused analytics
                     platform)
                 </li>
@@ -65,9 +64,8 @@ import MainLayout from "../components/MainLayout.vue";
                         rel="noopener noreferrer"
                         class="mr-1"
                     >
-                        Sentry
-                    </a>
-                    (an error-logging platform)
+                        Sentry</a>
+                    (a performance monitoring and error logging platform)
                 </li>
             </ul>
         </div>

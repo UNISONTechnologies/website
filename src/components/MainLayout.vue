@@ -82,7 +82,7 @@ onBeforeUnmount(() => window.removeEventListener("resize", onResize));
             <div class="bg-white rounded-lg shadow px-5 py-6 sm:px-6 min-h-96">
                 <div
                     class="p-4"
-                    :class="[props.typography ? 'prose max-w-none' : '']"
+                    :class="[props.typography ? 'prose max-w-none font-default' : '']"
                 >
                     <slot />
                 </div>

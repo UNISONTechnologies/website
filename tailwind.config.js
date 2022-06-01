@@ -14,6 +14,7 @@ module.exports = {
             sans: ["Barlow", ...defaultTheme.fontFamily.sans],
             serif: [...defaultTheme.fontFamily.serif],
             mono: [...defaultTheme.fontFamily.mono],
+            default: [...defaultTheme.fontFamily.sans],
         },
         extend: {
             colors: {
